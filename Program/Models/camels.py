@@ -1,4 +1,4 @@
-rom Program.Models.PackAnimalsABS import PackAnimalsABS
+from Program.Models.PackAnimalsABS import PackAnimalsABS
 
 
 class Camels(PackAnimalsABS):
