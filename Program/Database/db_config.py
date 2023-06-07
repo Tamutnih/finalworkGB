@@ -7,6 +7,3 @@ def config_db_init():
     password = getpass('Enter the database server password: ')
     database = 'Human_friends'
     return [host, user, password, database]
-
-
-db_connect.py
