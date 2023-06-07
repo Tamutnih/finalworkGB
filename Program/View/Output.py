@@ -200,20 +200,3 @@ def print_animal(config):
                     break
         else:
             print('\nYou entered the wrong number. Try again.')
-
-
-_____________
-Program.py
-
-if __name__ == '__main__':
-    print('\nPets accounting started')
-
-    config = config_db_init()
-    dog_1 = Dogs('Шарик', '2018-06-12', 'come here')
-    cat_1 = Cats('Мурзик', '2023-05-19', 'come here')
-    hamster_1 = Hamsters('Прошка', '2016-07-10', 'run')
-    camel_1 = Camels('Шустрик', '2018-03-12', 'transport')
-    donkey_1 = Donkeys('Ушастик', '2023-02-19', 'transport')
-    horse_1 = Horses('Степа', '2016-07-02', 'jump')
-    create_db_human_friends(config)
-    ls_menu(config)
